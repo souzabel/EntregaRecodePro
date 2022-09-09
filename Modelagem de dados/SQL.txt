@@ -1,0 +1,19 @@
+create database gaabsAgencia;
+
+create table clientes(
+id_cliente smallint auto_increment primary key,
+nome_cliente varchar(70) not null,
+cpf varchar(14),
+email varchar(20),
+idade int
+);
+
+
+create table viagem(
+id_viagem smallint auto_increment primary key,
+dataIda varchar(10) not null,
+dataVolta varchar(10) not null,
+origem varchar(20) not null,
+destino varchar(20) not null,
+pagamento int
+);
