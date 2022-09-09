@@ -3,3 +3,6 @@
 01_Pseudocódigo;
 02_Criação de um site de Agência de Viagens utilizando HTML/CSS e BOOTSTRAP;
 
+# Repositório segunda Entrega RecodePro 2022
+
+
