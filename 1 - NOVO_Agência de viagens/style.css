@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,100&display=swap');
+
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./img/site.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 20px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .logo img{
+    width: 30px;
+    height: 30px;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header ul li{
+    font-size: 14px;
+}
+main {
+    padding-top: 100px;
+}
+
+
+.top-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bottom-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    background-color: rgb(215, 237, 251);
+    border-radius: 4px;
+    width: 48%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label{
+    color: rgb(97, 20, 249);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#locations, #hotel, #range {
+        display: flex;
+    flex-direction: column;
+}
+select {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.button-search{
+    padding: 30px;
+}
+
+.pacotes{
+    background-color:rgb(215, 237, 251)
+    padding: 15px;
+}
+
+.pacotes-title{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap; /*Conforme vai diminuindo a tela os cards vao ficando um embaixo do outro */
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.pacotes .card{
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 24px 0 24px 0;
+    position: relative; /*card-tag-top */
+}
+
+.pacotes .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.pacotes .card-content h1{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.pacotes .card-content li{
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    color: grey;
+}
+
+.pacotes .card .card-tag-top{
+    position: absolute; /* esta posicao vai colocar o testo em cima da foto */
+    right: 0;
+    top: 15px;
+    background-color: #145599;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 150px;
+    background: #FF8427;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+*{
+
+}
+
+
+li .sistema{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/fundo_2.png');
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-color: #ffffff; 
+    
+}
+.apresentacao{
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+   height: 60vh;
+  
+}
+
+.apresentacao img{
+    display: flex;
+    width: 20%;
+}
+
+.apresentacao-sobre{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.img-jogos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.caixa-img-jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* height: 200px; */
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+.caixa-img-jogo img{
+    width: 100%;
+}
+
+
+.box-texto-apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+    height: 40vh;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 15px rgb(12, 12, 12);
+}
+
+.img-apesentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-apesentacao img{
+    margin: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.img-apesentacao p{
+   color: white;
+   font-size: 1.2rem;
+   text-align: center;
+   padding: 20px;
+}
+
+
+.links-importantes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+.links-importantes ul{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.links-importantes ul li{    
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.links-importantes ul li a{
+   color: white;
+   text-decoration: none;
+
+}
+
+.links-importantes ul li a:hover{
+    color: #000;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5px;
+    text-align: center;
+}
+
+
+
+
+@media  screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    } 
+    .section1{
+        display: flex;
+        flex-direction: column;
+    } 
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-jogos{
+        display: flex;
+        flex-direction: column;
+    }
+    .caixa-img-jogo{
+        width: 50%;
+    }
+
+    .box-texto-apresentacao{
+        display: flex;
+        font-size: 1rem;
+        height: 60vh;
+    }
+    
+}
+
+
+/*CSS QUE ESTAVA COMO "NOVOMENU.CSS"*/
+
+
+
+:root {
+    --cor-fundo: #e7f1ec;
+    --cor-hover: #e7f1ec;
+    --cor-primaria: #e7f1ec;
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 10 px;
+    
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+    
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+    font-size: 20px;   
+
+}
+    
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+    border-bottom: 1px solid #CCC;
+    
+    
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 300px
+  
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+#menu-principal{
+    text-align: center;
+}
+
+
+#botao-login{
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#ffffff
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
